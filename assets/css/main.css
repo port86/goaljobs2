@@ -19,9 +19,9 @@
 
 /* Colors */
 :root {
-  --color-default: #222222;
-  --color-primary: #008374;
-  --color-secondary: #f85a40;
+  --color-default: #3C6DB5;
+  --color-primary: #3C6DB5;
+  --color-secondary: #3C6DB5;
 }
 
 /* Smooth scroll behavior */
@@ -43,7 +43,7 @@ a {
 }
 
 a:hover {
-  color: #00b6a1;
+  color: #616262;
   text-decoration: none;
 }
 
@@ -180,7 +180,7 @@ section {
 }
 
 .scroll-top:hover {
-  background: rgba(248, 90, 64, 0.8);
+  background: rgba(82, 82, 82, 0.8);
   color: #fff;
 }
 
@@ -238,7 +238,7 @@ section {
 # Header
 --------------------------------------------------------------*/
 .topbar {
-  background: #00796b;
+  background: #707070;
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -318,7 +318,7 @@ section {
 }
 
 .header .logo h1 span {
-  color: #f96f59;
+  color: #3C6DB5;
 }
 
 .sticked-header-offset {
@@ -428,7 +428,7 @@ section {
     font-size: 15px;
     text-transform: none;
     font-weight: 600;
-    color: #006a5d;
+    color: #3C6DB5;
   }
 
   .navbar .dropdown ul a i {
@@ -499,7 +499,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: rgba(0, 131, 116, 0.9);
+    background: #3C6DB5;
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -545,7 +545,7 @@ section {
   .navbar .getstarted:hover,
   .navbar .getstarted:focus:hover {
     color: #fff;
-    background: rgba(0, 131, 116, 0.8);
+    background: #3C6DB5;
   }
 
   .navbar .dropdown ul,
@@ -555,8 +555,8 @@ section {
     padding: 10px 0;
     margin: 10px 20px;
     transition: all 0.5s ease-in-out;
-    background-color: #007466;
-    border: 1px solid #006459;
+    background-color: #3C6DB5;
+    border: 1px solid #3C6DB5;
   }
 
   .navbar .dropdown>.dropdown-active,
@@ -598,7 +598,7 @@ section {
     content: "";
     position: fixed;
     inset: 0;
-    background: rgba(0, 106, 93, 0.8);
+    background: #3C6DB5;
     z-index: 9996;
   }
 }
@@ -660,7 +660,7 @@ section {
 .about .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(var(--color-primary) 50%, rgba(0, 131, 116, 0.4) 52%);
+  background: radial-gradient(var(--color-primary) 50%, (#3C6DB5) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -681,7 +681,7 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(0, 131, 116, 0.7);
+  border: 5px solid #3C6DB5;
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
@@ -836,7 +836,7 @@ section {
   width: 94px;
   height: 94px;
   margin-bottom: 20px;
-  background: radial-gradient(var(--color-primary) 50%, rgba(0, 131, 116, 0.4) 52%);
+  background: radial-gradient(var(--color-primary) 50%, (#3C6DB5) 52%);
   border-radius: 50%;
   display: inline-block;
   position: relative;
@@ -855,7 +855,7 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(0, 131, 116, 0.7);
+  border: 5px solid (#3C6DB5);
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
@@ -996,7 +996,7 @@ section {
 }
 
 .services .service-item:hover .icon:before {
-  background: #00b6a1;
+  background: #3C6DB5;
 }
 
 .services .service-item:hover h3 {
@@ -1050,7 +1050,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #009d8b;
+  color: ##3C6DB5;
   font-size: 26px;
   line-height: 0;
 }
@@ -1293,7 +1293,7 @@ section {
 }
 
 .portfolio-details .portfolio-info .btn-visit:hover {
-  background: #009d8b;
+  background: #3C6DB5;
 }
 
 .portfolio-details .portfolio-description h2 {
@@ -1480,7 +1480,7 @@ section {
   height: 86px;
   width: 86px;
   border-radius: 50%;
-  background: #87c1bb;
+  background: #3C6DB5;
   transition: all 0.3s ease-out 0s;
   transform: translateZ(-1px);
 }
@@ -1530,7 +1530,7 @@ section {
 }
 
 .pricing ul i {
-  color: #059652;
+  color: #3C6DB5;
   font-size: 24px;
   padding-right: 3px;
 }
@@ -1720,7 +1720,7 @@ section {
 
 .contact .info-item {
   width: 100%;
-  background-color: #009282;
+  background-color: #6e6e6e;
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 10px;
@@ -1963,7 +1963,7 @@ section {
   padding: 60px 30px;
   position: relative;
   overflow: hidden;
-  background: #008d7d;
+  background: #616161;
   box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
@@ -1995,7 +1995,7 @@ section {
 }
 
 .hero .icon-box:hover {
-  background: #009786;
+  background: #2b0568;
 }
 
 .hero .icon-box:hover .title a,
